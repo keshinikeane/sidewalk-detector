@@ -1,0 +1,7 @@
+<launch>
+	<node name="sidewalk" pkg="sidewalk_detector" type="sidewalk.py" output="screen">
+	</node>
+	<node name="rosbag" pkg="rosbag" type="play" output="screen" args="/home/administrator/catkin_ws/src/sidewalk_detector/src/realsense_coding_challenge_1.bag" >
+	</node>
+</launch>
+
